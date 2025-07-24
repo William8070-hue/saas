@@ -1,12 +1,218 @@
-local v0=game:GetService("Players");local v1=v0.LocalPlayer;local v2=v1:GetMouse();local v3=game:GetService("UserInputService");local v4=game:GetService("RunService");local v5=workspace.CurrentCamera;local v6,v7=false,false;local v8,v9=false,false;local v10,v11,v12=false,false,false;local v13,v14,v15=93 + 7 ,70 -54 ,46 + 4 ;local v16="Head";local v17=Instance.new("ScreenGui",v1:WaitForChild("PlayerGui"));v17.Name="UniversalAimbot";v17.ResetOnSpawn=false;local v20=Instance.new("Frame",v17);v20.Size=UDim2.new(0 -0 ,1693 -(447 + 966) ,0,1095 -695 );v20.Position=UDim2.new(1817.5 -(1703 + 114) , -(841 -(376 + 325)),0.5 -0 , -(615 -415));v20.BackgroundColor3=Color3.fromRGB(6 + 14 ,20,20);v20.BorderSizePixel=0 -0 ;v20.Active=true;v20.Draggable=true;local v27=Instance.new("TextLabel",v20);v27.Size=UDim2.new(15 -(9 + 5) , -60,0,30);v27.Position=UDim2.new(0,386 -(85 + 291) ,1265 -(243 + 1022) ,0 -0 );v27.Text="Spectra Aimbot";v27.BackgroundTransparency=1;v27.Font=Enum.Font.GothamBold;v27.TextColor3=Color3.new(1 + 0 ,1181 -(1123 + 57) ,1 + 0 );v27.TextSize=272 -(163 + 91) ;v27.TextXAlignment=Enum.TextXAlignment.Left;local v38=Instance.new("TextButton",v20);v38.Size=UDim2.new(0,1955 -(1869 + 61) ,0 + 0 ,87 -62 );v38.Position=UDim2.new(1, -(84 -29),0 + 0 ,2);v38.Text="-";v38.BackgroundColor3=Color3.fromRGB(82 -22 ,57 + 3 ,60);v38.TextColor3=Color3.new(1,1475 -(1329 + 145) ,972 -(140 + 831) );local v44=Instance.new("TextButton",v20);v44.Size=UDim2.new(0,25,1850 -(1409 + 441) ,25);v44.Position=UDim2.new(719 -(15 + 703) , -(13 + 15),438 -(262 + 176) ,1723 -(345 + 1376) );v44.Text="X";v44.BackgroundColor3=Color3.fromRGB(888 -(198 + 490) ,0,0);v44.TextColor3=Color3.new(4 -3 ,2 -1 ,1207 -(696 + 510) );local v50=Instance.new("ImageButton",v17);v50.Size=UDim2.new(0,50,0 -0 ,1312 -(1091 + 171) );v50.Position=UDim2.new(0,4 + 16 ,0.5 -0 , -(82 -57));v50.Image="https://media.discordapp.net/attachments/1383224295446155335/1397821427683688518/IMG_3312.webp?format=webp";v50.BackgroundTransparency=375 -(123 + 251) ;v50.Visible=false;v38.MouseButton1Click:Connect(function() local v73=0;while true do if (v73==(0 -0)) then v20.Visible=false;v50.Visible=true;break;end end end);v50.MouseButton1Click:Connect(function() local v74=698 -(208 + 490) ;while true do if (v74==(0 + 0)) then v20.Visible=true;v50.Visible=false;break;end end end);v44.MouseButton1Click:Connect(function() v17:Destroy();end);local v56=18 + 22 ;local function v57(v75,v76) local v77=836 -(660 + 176) ;local v78;local v79;while true do if (v77==(1 + 2)) then v79.BackgroundColor3=Color3.fromRGB(200,202 -(14 + 188) ,675 -(534 + 141) );v79.Text="";v79.MouseButton1Click:Connect(function() local v184=v79.BackgroundColor3==Color3.fromRGB(200,0,0 + 0 ) ;v79.BackgroundColor3=(v184 and Color3.fromRGB(0,177 + 23 ,0 + 0 )) or Color3.fromRGB(420 -220 ,0 -0 ,0 -0 ) ;v76(v184);end);v56=v56 + 19 + 16 ;break;end if (1==v77) then v78.BackgroundTransparency=1;v78.TextColor3=Color3.new(1 + 0 ,397 -(115 + 281) ,2 -1 );v78.Font=Enum.Font.SourceSans;v78.TextSize=14 + 2 ;v77=4 -2 ;end if (v77==(7 -5)) then v78.TextXAlignment=Enum.TextXAlignment.Left;v79=Instance.new("TextButton",v20);v79.Size=UDim2.new(867 -(550 + 317) ,28 -8 ,0 -0 ,55 -35 );v79.Position=UDim2.new(285 -(134 + 151) ,140,1665 -(970 + 695) ,v56 + (5 -2) );v77=1993 -(582 + 1408) ;end if (0==v77) then v78=Instance.new("TextLabel",v20);v78.Size=UDim2.new(0 -0 ,150 -30 ,0 -0 ,1849 -(1195 + 629) );v78.Position=UDim2.new(0,13 -3 ,241 -(187 + 54) ,v56);v78.Text=v75;v77=1;end end end local function v58(v80,v81,v82) local v83=780 -(162 + 618) ;local v84;local v85;local v86;local v87;local v88;while true do if (v83==(3 + 1)) then local v160=0;while true do if (v160==(1 + 0)) then v86.Size=UDim2.new(0 -0 ,0,1 -0 ,0 + 0 );v83=1641 -(1373 + 263) ;break;end if (v160==(1000 -(451 + 549))) then v85.BackgroundColor3=Color3.fromRGB(50,16 + 34 ,77 -27 );v86=Instance.new("Frame",v85);v160=1;end end end if (v83==(4 -1)) then v85=Instance.new("Frame",v20);v85.Size=UDim2.new(1384 -(746 + 638) ,46 + 74 ,0,8 -2 );v85.Position=UDim2.new(341 -(218 + 123) ,1591 -(1535 + 46) ,0,v56 + 22 + 0 );v83=1 + 3 ;end if (v83==0) then local v163=560 -(306 + 254) ;while true do if (v163==(1 + 0)) then v84.Position=UDim2.new(0 -0 ,1477 -(899 + 568) ,0 + 0 ,v56);v83=2 -1 ;break;end if (v163==(603 -(268 + 335))) then v84=Instance.new("TextLabel",v20);v84.Size=UDim2.new(290 -(60 + 230) ,692 -(426 + 146) ,0 + 0 ,1481 -(282 + 1174) );v163=812 -(569 + 242) ;end end end if (v83==(17 -11)) then function v88(v186) local v187=math.clamp((v186-v85.AbsolutePosition.X)/v85.AbsoluteSize.X ,0 + 0 ,1025 -(706 + 318) );v86.Size=UDim2.new(v187,1251 -(721 + 530) ,1,1271 -(945 + 326) );local v189=math.floor(v187 * v81 );v82(v189);end v85.InputBegan:Connect(function(v190) if (v190.UserInputType==Enum.UserInputType.MouseButton1) then local v204=0 -0 ;while true do if (v204==(0 + 0)) then v87=true;v88(v190.Position.X);break;end end end end);v3.InputChanged:Connect(function(v191) if (v87 and (v191.UserInputType==Enum.UserInputType.MouseMovement)) then v88(v191.Position.X);end end);v83=7;end if (v83==(702 -(271 + 429))) then v84.Font=Enum.Font.SourceSans;v84.TextSize=15 + 1 ;v84.TextXAlignment=Enum.TextXAlignment.Left;v83=3;end if (v83==(1501 -(1408 + 92))) then v84.Text=v80;v84.BackgroundTransparency=1;v84.TextColor3=Color3.new(1087 -(461 + 625) ,1289 -(993 + 295) ,1 + 0 );v83=2;end if (v83==(1178 -(418 + 753))) then v3.InputEnded:Connect(function(v192) if (v192.UserInputType==Enum.UserInputType.MouseButton1) then v87=false;end end);v56=v56 + 40 ;break;end if (v83==(2 + 3)) then v86.BackgroundColor3=Color3.fromRGB(0 + 0 ,59 + 141 ,0 + 0 );v87=false;v88=nil;v83=6;end end end v57("Silent Aim",function(v89) v6=v89;end);v57("Trigger Bot",function(v90) v7=v90;end);v57("ESP",function(v91) v8=v91;end);v57("Spin Bot",function(v92) v9=v92;end);v57("Fly",function(v93) v10=v93;end);v58("Fly Speed",729 -(406 + 123) ,function(v94) v13=v94;end);v57("WalkSpeed",function(v95) v11=v95;end);v58("Walk Speed",1869 -(1749 + 20) ,function(v96) v14=v96;end);v57("JumpPower",function(v97) v12=v97;end);v58("Jump Power",24 + 76 ,function(v98) v15=v98;end);local v59=Instance.new("TextButton",v20);v59.Size=UDim2.new(1322 -(1249 + 73) ,50 + 90 ,1145 -(466 + 679) ,59 -34 );v59.Position=UDim2.new(0 -0 ,1910 -(106 + 1794) ,0 + 0 ,v56);v59.Text="Target: Head";v59.BackgroundColor3=Color3.fromRGB(12 + 33 ,132 -87 ,121 -76 );v59.TextColor3=Color3.new(115 -(4 + 110) ,585 -(57 + 527) ,1428 -(41 + 1386) );local v65={"Head","HumanoidRootPart","Random"};v59.MouseButton1Click:Connect(function() local v99=0 -0 ;local v100;while true do if (v99==(2 -1)) then v16=v65[v100];v59.Text="Target: "   .. (((v16=="HumanoidRootPart") and "Torso") or v16) ;break;end if (v99==0) then local v175=166 -(122 + 44) ;while true do if (v175==(0 -0)) then v100=table.find(v65,v16) or (3 -2) ;v100=(v100% #v65) + 1 ;v175=1;end if (v175==1) then v99=1 + 0 ;break;end end end end end);local function v66() local v101,v102=nil,math.huge;for v116,v117 in pairs(v0:GetPlayers()) do if ((v117~=v1) and v117.Character and v117.Character:FindFirstChild("HumanoidRootPart")) then local v176=0;local v177;local v178;while true do if (v176==0) then v177=((v16=="Random") and (math.random(1 + 0 ,3 -1 )==1) and "Head") or v16 ;v178=v117.Character:FindFirstChild(v177) or v117.Character:FindFirstChild("HumanoidRootPart") ;v176=66 -(30 + 35) ;end if (v176==(1 + 0)) then if v178 then local v210=1257 -(1043 + 214) ;local v211;local v212;local v213;local v214;while true do if (v210==(0 -0)) then v211=v5.CFrame.Position;v212=v178.Position-v211 ;v210=1;end if (v210==(1214 -(323 + 889))) then if (v214<(18 -11)) then local v231=580 -(361 + 219) ;local v232;while true do if (v231==(320 -(53 + 267))) then v232=0;while true do if (v232==(0 + 0)) then v101=v178;v102=v214;break;end end break;end end end break;end if (v210==(414 -(15 + 398))) then local v225=982 -(18 + 964) ;while true do if (v225==(0 -0)) then v213=Ray.new(v211,v212.Unit * (579 + 421) );v214=(v178.Position-v213.Origin):Cross(v213.Direction.Unit).Magnitude;v225=1 + 0 ;end if (v225==(851 -(20 + 830))) then v210=2;break;end end end end end break;end end end end return v101;end local v67=getrawmetatable(game);local v68=v67.__namecall;setreadonly(v67,false);v67.__namecall=newcclosure(function(v103,...) local v104=0;local v105;local v106;while true do if (v104==(1 + 0)) then local v179=0;while true do if ((126 -(116 + 10))==v179) then if (v6 and (v106=="FindPartOnRayWithIgnoreList") and (typeof(v105[1])=="Ray")) then local v215=0;local v216;local v217;while true do if (v215==1) then if v217 then local v233=0 + 0 ;while true do if (v233==0) then v105[1]=Ray.new(v216,(v217.Position-v216).Unit * (1738 -(542 + 196)) );return v68(v103,unpack(v105));end end end break;end if (v215==0) then local v226=0;while true do if (v226==0) then v216=v105[1 -0 ].Origin;v217=v66();v226=1 + 0 ;end if (v226==(1 + 0)) then v215=1 + 0 ;break;end end end end end return v68(v103,...);end end end if (v104==(0 -0)) then v105={...};v106=getnamecallmethod();v104=1;end end end);setreadonly(v67,true);v4.RenderStepped:Connect(function() local v107=1551 -(1126 + 425) ;local v108;local v109;while true do if (v107==(406 -(118 + 287))) then v109=workspace:FindPartOnRay(v108,v1.Character);if (v109 and v109.Parent and v109.Parent:FindFirstChild("Humanoid")) then mouse1press();else mouse1release();end break;end if (v107==0) then if  not v7 then return;end v108=Ray.new(v5.CFrame.Position,v5.CFrame.LookVector * (3919 -2919) );v107=1122 -(118 + 1003) ;end end end);local function v70() for v118,v119 in pairs(v0:GetPlayers()) do if ((v119~=v1) and v119.Character) then local v180=0 -0 ;local v181;while true do if (0==v180) then v181=v119.Character:FindFirstChild("Highlight");if (v8 and  not v181) then local v218=0;local v219;while true do if (v218==(378 -(142 + 235))) then v219.OutlineColor=Color3.fromRGB(1156 -901 ,56 + 199 ,1232 -(553 + 424) );v219.DepthMode=Enum.HighlightDepthMode.AlwaysOnTop;break;end if ((0 -0)==v218) then v219=Instance.new("Highlight",v119.Character);v219.FillColor=Color3.fromRGB(255,0 + 0 ,0);v218=1 + 0 ;end end elseif ( not v8 and v181) then v181:Destroy();end break;end end end end end v4.RenderStepped:Connect(function() local v110=0 + 0 ;while true do if (v110==(0 + 0)) then if v8 then v70();end if (v9 and v1.Character and v1.Character:FindFirstChild("HumanoidRootPart")) then v1.Character.HumanoidRootPart.CFrame*=CFrame.Angles(0 + 0 ,math.rad(32 -17 ),0) end break;end end end);local v71,v72;v4.RenderStepped:Connect(function() local v111=v1.Character;if ( not v111 or  not v111:FindFirstChild("HumanoidRootPart")) then return;end local v112=v111.HumanoidRootPart;if v10 then if  not v71 then local v193=0 -0 ;while true do if (2==v193) then v72=Instance.new("BodyVelocity",v112);v72.MaxForce=Vector3.new(8999999488 -0 ,8999999488 -0 ,8999999488);break;end if (v193==1) then v71.maxTorque=Vector3.new(8852733068 --147266420 ,9000000817 -(797 + 532) ,9000000205 -(476 + 241) );v71.CFrame=v112.CFrame;v193=2;end if (v193==0) then v71=Instance.new("BodyGyro",v112);v71.P=211612 -121612 ;v193=1203 -(373 + 829) ;end end end local v134=Vector3.zero;if v3:IsKeyDown(Enum.KeyCode.W) then v134+=v5.CFrame.LookVector end if v3:IsKeyDown(Enum.KeyCode.S) then v134-=v5.CFrame.LookVector end if v3:IsKeyDown(Enum.KeyCode.A) then v134-=v5.CFrame.RightVector end if v3:IsKeyDown(Enum.KeyCode.D) then v134+=v5.CFrame.RightVector end if v3:IsKeyDown(Enum.KeyCode.Space) then v134+=v5.CFrame.UpVector end if v3:IsKeyDown(Enum.KeyCode.LeftControl) then v134-=v5.CFrame.UpVector end v71.CFrame=v5.CFrame;v72.Velocity=v134.Unit * v13 ;else local v138=731 -(476 + 255) ;local v139;while true do if (v138==(1130 -(369 + 761))) then v139=0;while true do if (v139==(0 + 0)) then if v71 then local v220=0 -0 ;local v221;while true do if (v220==0) then v221=0 -0 ;while true do if (v221==(238 -(64 + 174))) then v71:Destroy();v71=nil;break;end end break;end end end if v72 then local v222=0 + 0 ;local v223;while true do if ((0 -0)==v222) then v223=0;while true do if (v223==(336 -(144 + 192))) then v72:Destroy();v72=nil;break;end end break;end end end break;end end break;end end end end);v4.RenderStepped:Connect(function() local v113=216 -(42 + 174) ;local v114;local v115;while true do if (v113==(2 + 0)) then if v12 then v115.JumpPower=v15;else v115.JumpPower=50;end break;end if (0==v113) then v114=v1.Character;if ( not v114 or  not v114:FindFirstChild("Humanoid")) then return;end v113=1 + 0 ;end if (v113==1) then v115=v114.Humanoid;if v11 then v115.WalkSpeed=v14;else v115.WalkSpeed=7 + 9 ;end v113=1506 -(363 + 1141) ;end end end);if ( not v3.TouchEnabled and Drawing) then local v120=Drawing.new("Circle");v120.Radius=1680 -(1183 + 397) ;v120.Thickness=1;v120.Color=Color3.fromRGB(0 -0 ,255,0);v120.Filled=false;v120.Transparency=0.8;v120.Visible=true;local v127=Drawing.new("Text");v127.Text="PC only";v127.Size=14;v127.Color=Color3.new(1 + 0 ,1 + 0 ,1976 -(1913 + 62) );v127.Center=true;v127.Outline=true;v127.Visible=true;v4.RenderStepped:Connect(function() local v140=0 + 0 ;local v141;while true do if (v140==(0 -0)) then v141=Vector2.new(v5.ViewportSize.X/(1935 -(565 + 1368)) ,v5.ViewportSize.Y/2 );v120.Position=v141;v140=3 -2 ;end if (v140==1) then v127.Position=v141 + Vector2.new(0,v120.Radius + (1671 -(1477 + 184)) ) ;break;end end end);end
--- ⚠️ WARNING: integrity protected!
---[[
- .____                  ________ ___.    _____                           __                
- |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
- |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
- |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
- |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
-         \/          \/         \/    \/                \/     \/     \/                   
-          \_Welcome to LuaObfuscator.com   (Alpha 0.10.9) ~  Much Love, Ferib 
+-- Load Rayfield UI
+loadstring(game:HttpGet("https://sirius.menu/rayfield"))()
 
-]]--
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+local Camera = workspace.CurrentCamera
+local UserInputService = game:GetService("UserInputService")
+local RunService = game:GetService("RunService")
+local Debris = game:GetService("Debris")
+
+-- Settings
+local TargetPart = "Head"
+local selectedPlayer = nil
+local Settings = {
+    SilentAim = false,
+    TriggerBot = false,
+    ESP = false,
+    SpinBot = false,
+    Fly = false,
+    WalkSpeed = false,
+    JumpPower = false,
+    FlySpeed = 50,
+    WalkSpeedValue = 16,
+    JumpPowerValue = 50,
+    Fling = false
+}
+
+-- Create UI
+local Window = Rayfield:CreateWindow({
+    Name = "Universal Aimbot GUI",
+    LoadingTitle = "Universal Aimbot",
+    LoadingSubtitle = "by You",
+    ConfigurationSaving = { Enabled = true, FolderName = "AimbotConfig", FileName = "settings" },
+    Discord = { Enabled = false },
+    KeySystem = false,
+})
+local MainTab = Window:CreateTab("Main", 4483362458)
+
+-- Core Features
+MainTab:CreateDropdown({Name="Target Part",Options={"Head","HumanoidRootPart","Random"},CurrentOption="Head",
+    Callback=function(opt) TargetPart=opt end})
+MainTab:CreateToggle({Name="Silent Aim",CurrentValue=false,Callback=function(v) Settings.SilentAim=v end})
+MainTab:CreateToggle({Name="Trigger Bot",CurrentValue=false,Callback=function(v) Settings.TriggerBot=v end})
+MainTab:CreateToggle({Name="ESP",CurrentValue=false,Callback=function(v) Settings.ESP=v end})
+MainTab:CreateToggle({Name="Spin Bot",CurrentValue=false,Callback=function(v) Settings.SpinBot=v end})
+MainTab:CreateToggle({Name="Fly Mode",CurrentValue=false,Callback=function(v) Settings.Fly=v end})
+MainTab:CreateSlider({Name="Fly Speed",Range={1,200},Increment=1,CurrentValue=50,
+    Callback=function(v) Settings.FlySpeed=v end})
+MainTab:CreateToggle({Name="Walk Speed",CurrentValue=false,Callback=function(v) Settings.WalkSpeed=v end})
+MainTab:CreateSlider({Name="Walk Speed Value",Range={1,100},Increment=1,CurrentValue=16,
+    Callback=function(v) Settings.WalkSpeedValue=v end})
+MainTab:CreateToggle({Name="Jump Power",CurrentValue=false,Callback=function(v) Settings.JumpPower=v end})
+MainTab:CreateSlider({Name="Jump Power Value",Range={1,100},Increment=1,CurrentValue=50,
+    Callback=function(v) Settings.JumpPowerValue=v end})
+
+-- Spectate Dropdown
+MainTab:CreateDropdown({Name="Spectate Player",Options={},CurrentOption=nil,
+    Callback=function(name) selectedPlayer=Players:FindFirstChild(name) end})
+task.spawn(function()
+    while true do
+        task.wait(5)
+        local names={}
+        for _,plr in ipairs(Players:GetPlayers()) do
+            if plr~=LocalPlayer then table.insert(names,plr.Name) end
+        end
+        MainTab:UpdateDropdown("Spectate Player", {Options=names})
+    end
+end)
+
+-- Fling Toggle
+MainTab:CreateToggle({Name="Fling on Touch",CurrentValue=false,Callback=function(v) Settings.Fling=v end})
+
+-- ESP Highlight
+function UpdateESP()
+    for _,plr in ipairs(Players:GetPlayers()) do
+        if plr~=LocalPlayer and plr.Character then
+            local highlight = plr.Character:FindFirstChildOfClass("Highlight")
+            if Settings.ESP then
+                if not highlight then
+                    highlight = Instance.new("Highlight",plr.Character)
+                    highlight.FillColor = Color3.fromRGB(255,0,0)
+                    highlight.OutlineColor = Color3.fromRGB(0,255,0)
+                    highlight.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+                end
+            else
+                if highlight then highlight:Destroy() end
+            end
+        end
+    end
+end
+
+-- Targeting
+local function GetClosestTarget()
+    local closest, distMin = nil, math.huge
+    for _,plr in ipairs(Players:GetPlayers()) do
+        if plr~=LocalPlayer and plr.Character then
+            local part = plr.Character:FindFirstChild(TargetPart) or plr.Character:FindFirstChild("HumanoidRootPart")
+            if part then
+                local p2d, onScreen = Camera:WorldToViewportPoint(part.Position)
+                if onScreen then
+                    local dist2d = (Vector2.new(p2d.X,p2d.Y)-Vector2.new(Camera.ViewportSize.X/2,Camera.ViewportSize.Y/2)).Magnitude
+                    if dist2d < distMin then
+                        closest, distMin = part, dist2d
+                    end
+                end
+            end
+        end
+    end
+    return closest
+end
+
+-- Silent Aim Hook
+local mt = getrawmetatable(game)
+setreadonly(mt,false)
+local oldNamecall = mt.__namecall
+mt.__namecall = newcclosure(function(self, ...)
+    local args = {...}
+    if Settings.SilentAim and getnamecallmethod()=="FindPartOnRayWithIgnoreList" then
+        local target = GetClosestTarget()
+        if target then
+            args[2] = Ray.new(args[2].Origin, (target.Position-args[2].Origin).Unit * 1000)
+        end
+        return oldNamecall(self, unpack(args))
+    end
+    return oldNamecall(self,...)
+end)
+setreadonly(mt,true)
+
+-- Trigger Bot Logic
+RunService.RenderStepped:Connect(function()
+    if Settings.TriggerBot then
+        local ray = Ray.new(Camera.CFrame.Position, Camera.CFrame.LookVector*5000)
+        local hit = workspace:FindPartOnRay(ray, LocalPlayer.Character)
+        if hit and hit.Parent and hit.Parent:FindFirstChild("Humanoid") then
+            mouse1press()
+        else
+            mouse1release()
+        end
+    end
+end)
+
+-- Spectate Camera
+RunService.RenderStepped:Connect(function()
+    if selectedPlayer and selectedPlayer.Character and selectedPlayer.Character:FindFirstChild("Humanoid") then
+        Camera.CameraSubject = selectedPlayer.Character.Humanoid
+    else
+        local hum = LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("Humanoid")
+        if hum then Camera.CameraSubject = hum end
+    end
+    UpdateESP()
+end)
+
+-- Movement & Spin & Fling & Fly
+RunService.RenderStepped:Connect(function()
+    local char = LocalPlayer.Character
+    if not char then return end
+    local hum = char:FindFirstChild("Humanoid")
+    if not hum then return end
+
+    -- Walk & Jump
+    hum.WalkSpeed = (Settings.WalkSpeed and Settings.WalkSpeedValue) or 16
+    hum.JumpPower = (Settings.JumpPower and Settings.JumpPowerValue) or 50
+
+    -- Spin Bot
+    if Settings.SpinBot and char:FindFirstChild("HumanoidRootPart") then
+        char.HumanoidRootPart.CFrame *= CFrame.Angles(0, math.rad(15), 0)
+    end
+
+    -- Fling on touch
+    if Settings.Fling and char:FindFirstChild("HumanoidRootPart") then
+        for _,plr in ipairs(Players:GetPlayers()) do
+            if plr~=LocalPlayer and plr.Character and plr.Character:FindFirstChild("HumanoidRootPart") then
+                local dist = (char.HumanoidRootPart.Position - plr.Character.HumanoidRootPart.Position).Magnitude
+                if dist < 5 then
+                    local bv = Instance.new("BodyVelocity")
+                    bv.Velocity = Vector3.new(9999,9999,9999)
+                    bv.MaxForce = Vector3.new(1e9,1e9,1e9)
+                    bv.Parent = plr.Character.HumanoidRootPart
+                    Debris:AddItem(bv, 0.2)
+                end
+            end
+        end
+    end
+end)
+
+-- Fly Logic
+local BodyGyro, BodyVelocity
+RunService.RenderStepped:Connect(function()
+    if not Settings.Fly then
+        if BodyGyro then BodyGyro:Destroy() BodyGyro = nil end
+        if BodyVelocity then BodyVelocity:Destroy() BodyVelocity = nil end
+        return
+    end
+    local root = LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
+    if not root then return end
+
+    if not BodyGyro then
+        BodyGyro = Instance.new("BodyGyro", root)
+        BodyGyro.P = 9e4
+        BodyGyro.MaxTorque = Vector3.new(9e9,9e9,9e9)
+    end
+    if not BodyVelocity then
+        BodyVelocity = Instance.new("BodyVelocity", root)
+        BodyVelocity.MaxForce = Vector3.new(9e9,9e9,9e9)
+    end
+
+    BodyGyro.CFrame = Camera.CFrame
+
+    local move = Vector3.zero
+    if UserInputService:IsKeyDown(Enum.KeyCode.W) then move += Camera.CFrame.LookVector end
+    if UserInputService:IsKeyDown(Enum.KeyCode.S) then move -= Camera.CFrame.LookVector end
+    if UserInputService:IsKeyDown(Enum.KeyCode.A) then move -= Camera.CFrame.RightVector end
+    if UserInputService:IsKeyDown(Enum.KeyCode.D) then move += Camera.CFrame.RightVector end
+    if UserInputService:IsKeyDown(Enum.KeyCode.Space) then move += Camera.CFrame.UpVector end
+    if UserInputService:IsKeyDown(Enum.KeyCode.LeftControl) then move -= Camera.CFrame.UpVector end
+
+    BodyVelocity.Velocity = move.Unit * Settings.FlySpeed
+end)
